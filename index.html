@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/favicon.ico" />
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontawesome.com/7a1c330123.js" crossorigin="anonymous"></script>
+  <title>CodePen Clone</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <label for="html" class="html"><i class="fa fa-html5"></i>HTML</label>
+      <textarea id="html-code" onkeyup="run()"></textarea>
+
+      <label for="css" class="css"><i class="fa fa-css3"></i>CSS</label>
+      <textarea id="css-code" onkeyup="run()"></textarea>
+
+      <label for="js" class="js"><i class="fab fa-js"></i>Javascript</label>
+      <textarea id="js-code" onkeyup="run()"></textarea>
+    </div>
+    <div class="right">
+      <label for="output"><i class="fa fa-play"></i>Output</label>
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -60,6 +60,7 @@ textarea {
   border: 0;
   outline: 0;
   font-size: 18px;
+  resize: none;
 }
 
 iframe {

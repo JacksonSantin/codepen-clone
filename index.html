@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="content-language" content="pt-br, en-US" />
+  <meta name="copyright" content="© 2024 Jackson Dhanyel Santin" />
+  <meta name="author" content="Jackson Dhanyel Santin" />
+  <meta name="robots" content="index,follow">
+  <meta name="rating" content="general" />
+  <meta name="description" content="Explore, edite e teste seu código HTML, CSS e JavaScript diretamente no navegador com esta plataforma intuitiva. Ideal para desenvolvedores experimentarem seus projetos de forma rápida e fácil." />
+  <meta name="keywords" content="editor de código online, HTML, CSS, JavaScript, testar código, plataforma de código, desenvolvedores, editor de HTML, editor de CSS, editor de JavaScript" />
+
+  <script src="https://kit.fontawesome.com/7a1c330123.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.3/theme/dracula.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.3/codemirror.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./assets/favicon.ico" />
+
+  <title>CodePen Clone</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <label for="html" class="html"><i class="fa fa-html5"></i>HTML</label>
+      <textarea id="html-code"></textarea>
+
+      <label for="css" class="css"><i class="fa fa-css3"></i>CSS</label>
+      <textarea id="css-code"></textarea>
+
+      <label for="js" class="js"><i class="fab fa-js"></i>Javascript</label>
+      <textarea id="js-code"></textarea>
+    </div>
+    <div class="right">
+      <label for="output"><i class="fa fa-play"></i>Output</label>
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.3/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.3/mode/xml/xml.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.3/mode/css/css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.3/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.3/addon/edit/closetag.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
